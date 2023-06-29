@@ -37,6 +37,10 @@
         },
         {
           "type": "SYMBOL",
+          "name": "define_color_statement"
+        },
+        {
+          "type": "SYMBOL",
           "name": "keyframes_statement"
         },
         {

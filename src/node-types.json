@@ -1533,6 +1533,10 @@
           "named": true
         },
         {
+          "type": "define_color_statement",
+          "named": true
+        },
+        {
           "type": "import_statement",
           "named": true
         },

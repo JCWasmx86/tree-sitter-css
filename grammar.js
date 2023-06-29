@@ -29,6 +29,7 @@ module.exports = grammar({
       $.media_statement,
       $.charset_statement,
       $.namespace_statement,
+      $.define_color_statement,
       $.keyframes_statement,
       $.supports_statement,
       $.at_rule
