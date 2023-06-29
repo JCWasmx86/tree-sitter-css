@@ -62,6 +62,13 @@ module.exports = grammar({
       ';'
     ),
 
+    define_color_statement: $ => seq(
+      '@define-color',
+      $.identifier,
+      choice($.color_value, $.call_expression),
+      ';'
+    ),
+
     keyframes_statement: $ => seq(
       choice(
         '@keyframes',
@@ -119,6 +126,7 @@ module.exports = grammar({
       $.media_statement,
       $.charset_statement,
       $.namespace_statement,
+      $.define_color_statement,
       $.keyframes_statement,
       $.supports_statement,
       $.at_rule

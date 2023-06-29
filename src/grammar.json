@@ -197,6 +197,36 @@
         }
       ]
     },
+    "define_color_statement": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "@define-color"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "identifier"
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SYMBOL",
+              "name": "color_value"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "call_expression"
+            }
+          ]
+        },
+        {
+          "type": "STRING",
+          "value": ";"
+        }
+      ]
+    },
     "keyframes_statement": {
       "type": "SEQ",
       "members": [
@@ -460,6 +490,10 @@
         {
           "type": "SYMBOL",
           "name": "namespace_statement"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "define_color_statement"
         },
         {
           "type": "SYMBOL",
