@@ -1296,6 +1296,10 @@
           {
             "type": "SYMBOL",
             "name": "call_expression"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "at_keyword"
           }
         ]
       }

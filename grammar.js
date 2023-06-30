@@ -286,7 +286,8 @@ module.exports = grammar({
       $.string_value,
       $.binary_expression,
       $.parenthesized_value,
-      $.call_expression
+      $.call_expression,
+      $.at_keyword
     )),
 
     parenthesized_value: $ => seq(

@@ -75,6 +75,10 @@
           "named": true
         },
         {
+          "type": "at_keyword",
+          "named": true
+        },
+        {
           "type": "attribute_selector",
           "named": true
         },
@@ -209,6 +213,10 @@
           "named": true
         },
         {
+          "type": "at_keyword",
+          "named": true
+        },
+        {
           "type": "attribute_name",
           "named": true
         },
@@ -299,6 +307,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "at_keyword",
+          "named": true
+        },
         {
           "type": "binary_expression",
           "named": true
@@ -447,6 +459,10 @@
       "multiple": false,
       "required": true,
       "types": [
+        {
+          "type": "at_keyword",
+          "named": true
+        },
         {
           "type": "binary_expression",
           "named": true
@@ -626,6 +642,10 @@
       "required": true,
       "types": [
         {
+          "type": "at_keyword",
+          "named": true
+        },
+        {
           "type": "binary_expression",
           "named": true
         },
@@ -763,6 +783,10 @@
       "required": true,
       "types": [
         {
+          "type": "at_keyword",
+          "named": true
+        },
+        {
           "type": "binary_expression",
           "named": true
         },
@@ -891,6 +915,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "at_keyword",
+          "named": true
+        },
         {
           "type": "binary_expression",
           "named": true
@@ -1135,6 +1163,10 @@
       "multiple": false,
       "required": true,
       "types": [
+        {
+          "type": "at_keyword",
+          "named": true
+        },
         {
           "type": "binary_expression",
           "named": true
