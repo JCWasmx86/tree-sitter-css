@@ -345,7 +345,7 @@ module.exports = grammar({
 
     identifier: $ => /(--|-?[a-zA-Z_])[a-zA-Z0-9-_]*/,
 
-    at_keyword: $ => /@[a-zA-Z-_]+/,
+    at_keyword: $ => /@[a-zA-Z-_0-9]+/,
 
     comment: $ => token(seq(
       '/*',

@@ -1688,7 +1688,7 @@
     },
     "at_keyword": {
       "type": "PATTERN",
-      "value": "@[a-zA-Z-_]+"
+      "value": "@[a-zA-Z-_0-9]+"
     },
     "comment": {
       "type": "TOKEN",
